@@ -4,6 +4,6 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_ENDPOINT}
+      defaultZone: 8761
   instance:
      preferIpAddress: true
